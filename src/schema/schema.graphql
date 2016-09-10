@@ -1,3 +1,10 @@
 type Query {
+  cols: [Col]
   aNumber: Int
+  # This query exists as a deprecation test
+  aTest: Int @deprecated(reason: "Testing deprecations")
+}
+
+type Mutation {
+  greet(name: String): String
 }

@@ -1,0 +1,5 @@
+type Col {
+  name: String
+  profileDivisions: Int
+  profileGradients: [Float]
+}
